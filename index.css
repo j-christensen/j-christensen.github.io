@@ -51,7 +51,7 @@ p {
     margin: 0;
     font-weight: bold;
     text-align: center;
-    background-color: #efefef;
+    background-color: rgba(200,200,200,0.7);
 }
 .quote {
     font-size: 12pt;
