@@ -36,7 +36,7 @@ p {
 }
 #header {
     background-image: url("CacheForest.jpg");
-    background-size: cover;
+    background-size: contain;
 }
 #header img {
     display: block;
