@@ -36,9 +36,9 @@ p {
 }
 #header {
     background-image: url("CacheForest.jpg");
-    background-position: top center;
+    background-position: center;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
 }
 #header img {
     display: block;
