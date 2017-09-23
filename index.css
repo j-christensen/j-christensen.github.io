@@ -43,8 +43,8 @@ p {
 }
 #header img {
     display: block;
-    width: 80px;
-    height: 80px;
+    width: auto;
+    height: 30%;
     margin: auto;
 }
 #header p {
