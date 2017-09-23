@@ -39,7 +39,8 @@ p {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 200px;
+    min-height: 200px;
+    max-height:300px;
 }
 #header img {
     display: block;
@@ -50,7 +51,7 @@ p {
 #header p {
     font-size: 25pt;
     color: #3b464c;
-    padding-top: 5px;
+    padding: 10px;
     margin: 10px;
     font-weight: bold;
     text-align: center;
