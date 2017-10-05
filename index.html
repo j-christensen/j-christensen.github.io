@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
 <head>
 	<title>Justin Christensen</title>
@@ -6,156 +7,164 @@
 	<style>
 		#header{
 			background-image:url("CacheForest.jpg");
+			background-position:center;
+		}
+		#header img{
+			display: block;
+			width:auto;
+			height:40%;
+			margin: auto;
+		}
+		.quote{
+			font-size:12pt;
+			text-align: right;
+			margin-top: 10px;
+		}
+		.quote span{
+			font-style:italic;
 		}
 	</style>
-	<script src="index.js"></script>
 </head>
 
-<body>
-  <div id="header" class="section">
-    <img alt="" class="img-circle" 
-         src="JustinChristensen-1.jpg">
-    <p>Justin Christensen</p>
-  </div>
+<body onscroll="navstick()">
+	<div id="header" class="section">
+		<img alt="" class="img-circle" 
+			src="JustinChristensen-1.jpg">
+		<p>Justin Christensen</p>
+	</div>
   
-  <!-- Links to my other pages-->
-  <div class="section" id="pages">
-	<a href="Education.html"> <button>Education</button></a>
-	<a href="Programming.html"> <button>Programming</button></a>
-	<a href="Research.html"> <button>Research</button></a>
-	<a href="Hobbies.html"> <button>Hobbies</button> </a>
-  </div>
-  <!-- Links to other pages end-->
+	<!-- Links to my other pages-->
+	<div id="navbar" class="section">
+		<a href="Index.html">Home</a>
+		<a href="Education.html"> Education</a>
+		<a href="Programming.html"> Programming</a>
+		<a href="Research.html"> Research</a>
+		<a href="Hobbies.html"> Hobbies</a>
+	</div>
+	<!-- Links to other pages end-->
   
-  <!-- About Me section start -->
-  <div class="section">
-    <h1><span>About Me</span></h1>
-    <p>
-      Hey! I'm <strong>Justin</strong>. I love all things science and outdoors. I studied physics at
-      Utah State University where I received my Master's degree in 2017. I chose  this field because 
-      I wanted to learn about everything from the small particles we're all made out of, to the 
-      planets, stars, and gallaxies hurling around our universe, and everything inbetween. Along 
-      the way,  I've learned a lot about programming in order to extract intriguing information from 
-      huge heaps of data, as well as to streamline repetetive processes to make life easier for me 
-      and my fellow researchers.
-    </p>
-    <p>
-      My first language is C++, which I love because learning it teaches a lot about the inner  
-      workings of computers, as well as how to represent and handle any real life object in your 
-      program. I've also had classes in school that used Fortran and Matlab, and I've taken time
-      on my own to dabble with c#, Java, Ruby, html, css, and Javascript. Programming is such a blast
-      because it allows you to build from scratch almost anything you can imagine,
-    </p>
+	<!-- About Me section start -->
+	<div class="section">
+		<h1><span>About Me</span></h1>
+		<p>
+			Hey! I'm <strong>Justin</strong>. I love all things science and outdoors. On  week days I can usually be found performing tests in an ultra-high vacuum chamber where I aim electron beams at electrically conductive or insulating materials and study how they arc, spark, glow, ...etc. On weekends, however, I am frequently found hiking and enjoying fresh air with my beautiful wife and our dog, woodworking, learning some new programming concept, or playing music on the piano, guitar, or violin.
+		</p>
     
-    <p>
-      When I'm not being a geeky nerd (honestly, this never happens.) I enjoy hiking,
-      camping, snowboarding, woodwork, or playing music (mostly on the piano). I have 
-      a beautiful wife of five years and a cute dog who both love to go on adventures
-      with me. 
-    </p>
-    
-    <p class="quote"> Quote of the month: "I have never in my life learned anything from any man who agreed with me."  </p>
-  </div>
-  <!-- About Me section end -->
+		<p class="quote"> 
+			Quote of the month: "I have never in my life learned anything from any man who agreed with me."<br /><span>Dudley Field Malone<span>  
+		</p>
+	</div>
+	<!-- About Me section end -->
   
-  <!-- My Skills section start-->
-  <div class="section">
-    <h1><span>Skills</span></h1>
-    <table>
-      <tr>
-        <th>Computational</th>
-        <th>Scientific</th>
-        <th>Lab Experience</th>
-        <th>Communication</th>
-      </tr>
-      <tr>
-        <td>C++, Fortran, HTML/CSS/JS</td>
-        <td>Electrodynamics</td>
-        <td>Experimental Design</td>
-        <td>Oral Presentation</td>
-      </tr>
-      <tr>
-        <td>Numerical Simulation</td>
-        <td>Differential Equations</td>
-        <td>Spectroscopy</td>
-        <td>Research Publication</td>
-      </tr>
-      <tr>
-        <td>Data Acquisition/Analysis</td>
-        <td>Linear Algebra</td>
-        <td>Equipment Calibration</td>
-        <td>Procedure Documentation</td>
-      </tr>
-      <tr>
-        <td>Algorithms</td>
-        <td>Applied Research</td>
-        <td>Electronics</td>
-        <td>Collaboration</td>
-      </tr>
-    </table>
-  </div>
-  <!-- My Skills section end -->
+	<div class="section">
+		<p>
+			I have organized this website to help you easily find relevant information about myself. This home page contains a brief overview of my education, work experience, skills, and career goals. The links at the top of the page contain more in-depth information about each of these topics as well as my hobbies and other fun querks about me. 
+		</p>
+	</div>
+  
+	<div class="section" id="list">
+		<h1><span>Education</span><h1>
+		<p class="edu">
+			<h3>Masters of Science in Physics</h2>
+			<strong>Utah State University</strong><br />
+			Sept 2017 GPA: 3.66<br />
+			<strong>Areas of Focus:</strong><br />
+			Computational and Solid State Physics, Classical Mechanics, Spacecraft Charging
+		</p>
+		<p class="edu">
+			<h3>Bachelors of Science in Physics</h3>
+			<strong>Utah State University</strong><br />
+			May 2015 GPA: 3.48<br />
+			Professional Emphasis<br />
+		</p>			
+	</div>
+  
+	<div class="section">
+		<h1><span>Work Experience</span><h1>
+		<p>
+		
+		</p>
+	</div>
+	<!-- My Skills section start-->
+	<div class="section">
+		<h1><span>Skills</span></h1>
+		<table>
+			<tr>
+				<th>Computational</th>
+				<th>Scientific</th>
+				<th>Lab Experience</th>
+				<th>Communication</th>
+			</tr>
+			<tr>
+				<td>C++, Fortran, HTML/CSS/JS</td>
+				<td>Electrodynamics</td>
+				<td>Experimental Design</td>
+				<td>Oral Presentation</td>
+			</tr>
+			<tr>
+				<td>Numerical Simulation</td>
+				<td>Differential Equations</td>
+				<td>Spectroscopy</td>
+				<td>Research Publication</td>
+			</tr>
+			<tr>
+				<td>Data Acquisition/Analysis</td>
+				<td>Linear Algebra</td>
+				<td>Equipment Calibration</td>
+				<td>Procedure Documentation</td>
+			</tr>
+			<tr>
+				<td>Algorithms</td>
+				<td>Applied Research</td>
+				<td>Electronics</td>
+				<td>Collaboration</td>
+			</tr>
+		</table>
+	</div>
+	<!-- My Skills section end -->
         
-  <!-- My Career Goals section start -->
-  <div class="section">
-    <h1><span>My Career Goals</span></h1>
-    <ul>
-      <li>Obtain a career where I can continue to improve my 
-        talents and contribute to a great cause.
-      </li>
-      <li>Continued involvement in scientific/technological research.
-      </li>
-      <li>Work in a team that supports one another and accomplishes
-        great things. 
-      </li>
-      <li>Find a career that has lots of diversity and provides 
-        exposure to a variety of disciplines. 
-      </li>
-    </ul>
-  </div>
-  <!-- My Career Goals section end -->
+	<!-- My Career Goals section start -->
+	<div class="section">
+		<h1><span>My Career Goals</span></h1>
+		<ul>
+			<li>Obtain a career where I can continue to improve my 
+				talents and contribute to a great cause.
+			</li>
+			<li>Continued involvement in scientific/technological research.
+			</li>
+			<li>Work in a team that supports one another and accomplishes
+				great things. 
+			</li>
+			<li>Find a career that has lots of diversity and provides 
+				exposure to a variety of disciplines. 
+			</li>
+		</ul>
+	</div>
+	<!-- My Career Goals section end -->
+		
+	<!-- Contacts section start -->
+	<div class="section" id="contacts">
+		<h1><span>Follow Me</span></h1>
+		<div>
+			<a href="https://www.linkedin.com/in/j-christensen/" target="_blank">
+				<img alt="Linkedin" src="https://image.flaticon.com/icons/svg/145/145807.svg"/>
+			</a>
+			<a href="https://www.facebook.com/justin.christensen.5" target="_blank">
+				<img alt="Facebook" src="FB-f-Logo__blue_72.png" />
+			</a>
+			<a href="https://works.bepress.com/justin_christensen/" target="_blank">
+				<img alt="Docs" src="research-icon.png" />
+			</a>
+		</div>
+	</div>
+	<!-- Contacts section end -->
+	
+	<div class="copyright">
+		&copy; 2017 Justin Christensen. All rights reserved.
+	</div>
+   
+   <script type="text/javascript" src="Global.js">
 
-  <!-- Form section start -->
-  <div class="section">
-    <h1><span>Contact Me</span></h1>
-            
-    <svg class="face" height="100" width="100">
-      <circle cx="50" cy="50" r="50" fill="#FDD835"/>
-      <circle cx="30" cy="30" r="10" fill="#FFFFFF"/>
-      <circle cx="70" cy="30" r="10" fill="#FFFFFF"/>
-      <circle cx="30" cy="30" r="5" fill="#000000"/>
-      <circle cx="70" cy="30" r="5" fill="#000000"/>
-      <path d="M 30 70 q 20 20 40 0" stroke="#FFFFFF" stroke-width="5" fill="none" />
-    </svg>
-                 
-    <form>
-      <input name="name" placeholder="Name" type="text" required /><br/>
-      <input name="email" placeholder="Email" type="email" required /><br/>
-      <textarea name="message" placeholder="Message" required ></textarea>
-      <input type="submit" value="SEND" class="submit" />
-    </form>
-  </div>
-  <!-- Form section end -->
-        
-  <!-- Contacts section start -->
-  <div class="section" id="contacts">
-    <h1><span>Follow Me</span></h1>
-    <div>
-      <a href="https://www.linkedin.com/in/j-christensen/" target="_blank">
-        <img alt="Linkedin" src="https://image.flaticon.com/icons/svg/145/145807.svg"/>
-      </a>
-      <a href="https://www.facebook.com/justin.christensen.5" target="_blank">
-        <img alt="Facebook" src="FB-f-Logo__blue_72.png" />
-      </a>
-      <a href="https://works.bepress.com/justin_christensen/" target="_blank">
-        <img alt="Docs" src="research-icon.png" />
-      </a>
-    </div>
-  </div>
-  <!-- Contacts section end -->
-        
-  <div class="copyright">
-    &copy; 2017 Justin Christensen. All rights reserved.
-   </div>
+</script>
 </body>
 </html>

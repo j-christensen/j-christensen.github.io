@@ -17,24 +17,49 @@ h1 {
     margin: 0 0 10px 0;
 }
 h1 span {
-    border: 4px dashed #808080;
+    border: 4px solid #808080;
     padding: 10px;
 }
 p {
     padding-bottom: 10;
     margin: 0;
+	text-align: justify;
 }
-#pages {
-	text-align:center;
+#navbar {
+	overflow: hidden;
+	background-color:#333;
 }
-a button{
-	padding:5px;
-	font-weight: bold;
-	border-radius: 5px;
-	background-color: rgb(90, 90, 90);
-	color: rgb(200,200,200);
-	cursor:pointer;
-	margin:5px;
+#navbar a{
+	float: left;
+	display: block;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px;
+	text-decoration: none;
+	font-size:17px;
+}
+#navbar a:hover{
+	background-color: #ddd;
+	color:black;
+}
+#navbar a.active{
+	background-color:#4CAF50;
+	color:white;
+}
+.sticky{
+	position: fixed;
+	top:0;
+	left:10px;
+	right:10px;
+}
+.sticky + .section{
+	padding-top:60px;
+}
+.leftcoll{
+	float: left;
+}
+.rightcoll{
+	float: right;
 }
 .img-circle {
     border: 4px solid white;
@@ -46,32 +71,36 @@ a button{
     margin-bottom: 10px;
     border-radius: 10px;
 }
+#list {
+	text-align:left;
+}
 #header {
-    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 200px;
-    max-height:300px;
+	max-height: 400px;
+	position:relative;
 }
-#header img {
-    display: block;
-    width: auto;
-    height: 60%;
-    margin: auto;
-}
-#header p {
+#header p{
     font-size: 25pt;
     color: #3b464c;
     padding: 10px;
     margin: 10px;
     font-weight: bold;
     text-align: center;
-    background-color: rgba(200,200,200,0.7);
+	//border:2px solid gray;
+	border-radius:10px;
+	background-color: rgba(150,150,150,0.8);
+	position: absolute;
+	bottom:0;
+	left:0;
+	right:0;
 }
-.quote {
-    font-size: 12pt;
-    text-align: right;
-    margin-top: 10px;
+.left{
+	float:left;
+}
+.right{
+	float:right;
 }
 table {
     width: 100%;
@@ -87,53 +116,15 @@ table, th, td {
     font-weight: bold;
     color: white;
 }
+.edu{
+	text-align: center;
+}
+#list {
+	text-align: center;
+}
 li {
     margin-bottom: 15px;
     font-weight: bold;
-}
-hr {
-    border: 0;
-    height: 1px;
-    background: #f36f48;
-}
-form {
-    text-align: center;
-    margin-top: 0;
-}
-.submit {
-    background-color: #3fb6b2;
-    padding: 12px 45px;
-    border-radius: 5px;
-    cursor: pointer;
-    color: #ffffff;
-    border: none;
-    outline: none;
-    margin: 0;
-    font-weight: bold;
-}
-.submit:hover {
-    background-color: #43a09d;
-}
-textarea {
-    height: 100px;
-}
-input, textarea {
-    margin-bottom: 10px;
-    font-size: 11pt;
-    padding: 15px 10px 10px;
-    border: 1px solid #cecece;
-    background-color: #efefef;
-    color: #787575;
-    border-radius: 5px;
-    width: 70%;
-    outline: none;
-}
-.face {
-    transform: scale(0.4);
-    margin: 0 auto;
-    display: block;
-    margin-top: -35px;
-    margin-bottom: -25px;
 }
 #contacts img {
     height: 50px;
